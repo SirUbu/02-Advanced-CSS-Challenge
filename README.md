@@ -40,25 +40,25 @@ THEN I am presented with a responsive layout that adapts to my viewport
 
 ## Link to Deployed Application
 
-
+https://sirubu.github.io/02-Advanced-CSS-Challenge/
 
 ## Checklist for Completion
 
 ### Technical Acceptance Criteria: 40%
-- [] Satisfies all of the above acceptance criteria.
+- [ ] Satisfies all of the above acceptance criteria.
 ### Deployment 32%
-- [] Application deployed at live URL.
-- [] Application loads with no errors.
-- [] Application GitHub URL submitted.
-- [] GitHub repository contains application code.
+- [x] Application deployed at live URL.
+- [ ] Application loads with no errors.
+- [ ] Application GitHub URL submitted.
+- [ ] GitHub repository contains application code.
 ### Application Quality: 15%
-- [] Application resembles the mock-up functionality provided in the Challenge instruction.
+- [ ] Application resembles the mock-up functionality provided in the Challenge instruction.
 ### Repository Quality: 13%
 - [x] Repository has a unique name.
-- [] Repository follows best practices for file structure and naming conventions.
-- [] Repository follows best practices for class/id naming conventions, indentation, quality comments, etc.
-- [] Repository contains multiple descriptive commit messages.
-- [] Repository contains quality readme with description, screenshot, link to deployed application.
+- [ ] Repository follows best practices for file structure and naming conventions.
+- [ ] Repository follows best practices for class/id naming conventions, indentation, quality comments, etc.
+- [ ] Repository contains multiple descriptive commit messages.
+- [x] Repository contains quality readme with description, screenshot, link to deployed application.
 ### Submit the Challenge
-- [] The URL of the deployed application.
-- [] The URL of the GitHub repository that contains your code.
+- [ ] The URL of the deployed application.
+- [ ] The URL of the GitHub repository that contains your code.
