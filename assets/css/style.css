@@ -14,6 +14,17 @@
     --font-secondary: Verdana, Geneva, Tahoma, sans-serif;
 }
 
+main {
+    background-image: url(../images/background2.png);
+}
+
+.section-title {
+    font-size: 48px;
+    font-weight: bold;
+    font-family: var(--font-primary);
+    border-right: solid black 4px;
+}
+
 /* header styling */
 header {
     padding: 35px 35px 20px 0px;
@@ -77,14 +88,38 @@ header nav ul li a:hover {
     justify-content: flex-end;
     align-items: flex-end;
     border-top: 3px solid var(--quinary-color);
-    border-bottom: 3px solid var(--quinary-color);
+    border-bottom: 4px solid var(--quinary-color);
 }
 
 .hero h2 {
+    font-family: var(--font-primary);
     background: var(--quinary-color);
     color: var(--primary-color);
     font-size: 30px;
     padding: 5px 50px;
     margin-bottom: 20px;
     border-radius: 20px 0 0 20px;
+}
+
+/* about me styling */
+.container {
+    width: 75%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.container-content {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.container-content img {
+    height: 300px;
+    width: 225px;
+}
+
+.container-content p {
+    width: 60%;
 }
