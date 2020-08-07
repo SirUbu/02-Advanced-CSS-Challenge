@@ -1,0 +1,90 @@
+/* universal styling */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --primary-color: #1b19c2;
+    --secondary-color: #71a9fd;
+    --tertiary-color: #797878;
+    --quaternary-color: #ffffff;
+    --quinary-color: #02d6f1;
+    --font-primary: Georgia, 'Times New Roman', Times, serif;
+    --font-secondary: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* header styling */
+header {
+    padding: 35px 35px 20px 0px;
+    background: var(--tertiary-color);
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    position: -webkit-sticky;
+    position: sticky;
+}
+
+header h1 {
+    color: var(--primary-color);
+    background: var(--quinary-color);
+    font-size: 40px;
+    padding: 5px 50px;
+    font-family: var(--font-primary);
+    border-radius: 0 25px 25px 0;
+}
+
+header a {
+    text-decoration: none;
+    color: var(--quinary-color);
+}
+
+header nav {
+    margin: 15px;
+    font-family: var(--font-secondary);
+}
+
+header nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+
+header nav ul li {
+    margin: 0 5px;
+    border-bottom: 2px solid var(--quinary-color);
+    border-radius: 15px;
+}
+
+header nav ul li a {
+    font-size: 20px;
+    padding: 10px 15px;
+}
+
+header nav ul li a:hover {
+    color: var(--primary-color);
+    background: var(--quinary-color);
+    border-radius: 15px;
+}
+
+/* hero/jumbotron styling */
+.hero {
+    background-image: url(../images/background.png);
+    height: 300px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    border-top: 3px solid var(--quinary-color);
+    border-bottom: 3px solid var(--quinary-color);
+}
+
+.hero h2 {
+    background: var(--quinary-color);
+    color: var(--primary-color);
+    font-size: 30px;
+    padding: 5px 50px;
+    margin-bottom: 20px;
+    border-radius: 20px 0 0 20px;
+}
