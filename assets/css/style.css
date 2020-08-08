@@ -291,3 +291,10 @@ footer div {
         margin-bottom: 20px;
     }
 }
+
+@media screen and (max-width: 575px) {
+    header nav ul li a {
+        display: inline-block;
+        margin-top: 10px;
+    }
+}
