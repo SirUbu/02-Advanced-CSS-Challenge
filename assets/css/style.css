@@ -72,7 +72,7 @@ header nav ul li a:hover {
 /* hero/jumbotron styling */
 .hero {
     background-image: url(../images/background.png);
-    height: 300px;
+    height: 250px;
     display: flex;
     justify-content: flex-end;
     align-items: flex-end;
@@ -103,21 +103,32 @@ main {
 }
 
 .container-title {
+    width: 20%;
     font-size: 48px;
     font-weight: bold;
     font-family: var(--font-primary);
     border-right: solid black 4px;
+    border-radius: 15px;
     text-align: right;
     padding-right: 20px;
     margin-right: 10px;
 }
 
 .container-content {
+    width: 100%;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
 }
 
+.container-content p {
+    width: 70%;
+    font-size: 18px;
+    line-height: 1.5;
+    font-family: var(--font-secondary);
+}
+
+/* about me styling */
 .about-picture {
     background-image: url(../images/Self\ Picture.jpg);
     background-size: cover;
@@ -131,9 +142,47 @@ main {
     height: 230px;
 }
 
-.container-content p {
-    width: 70%;
-    font-size: 18px;
-    line-height: 1.5;
-    font-family: var(--font-secondary);
+/* work styling*/
+.grid-content {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.grid-container {
+    height: 600px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 2fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-gap: 10px;
+}
+
+.project-1 {
+    background: orange;
+    grid-column: 2;
+    grid-row: 3;
+}
+
+.project-2 {
+    background: purple;
+    grid-column: 3;
+    grid-row: 2;
+}
+
+.project-3 {
+    background: green;
+    grid-column: 3;
+    grid-row: 1;
+}
+
+.project-4 {
+    background: red;
+    grid-column: 1;
+    grid-row: 3;
+}
+
+.project-5 {
+    background: blue;
+    grid-column: 1 / span 2;
+    grid-row: 1 / span 2;
 }
