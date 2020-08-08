@@ -232,3 +232,62 @@ footer div {
     font-size: 16px;
     padding-top: 30px;
 }
+
+@media screen and (max-width: 1110px) {
+    .container-content {
+        display: inline;
+    }
+
+    .container-content p {
+        width: 100%;
+    }
+
+    .about-picture {
+        float: left;
+        margin-right: 15px;
+    }
+
+    .contact {
+        display: flex;
+    }
+}
+
+@media screen and (max-width: 1028px) {
+    header  {
+        padding-bottom: 0;
+        position: relative;
+        justify-content: center;
+    }
+    
+    header h1 {
+        width: 100%;
+        text-align: center;
+    }
+
+    .grid-container {
+        grid-template-columns: repeat(2, 2fr);
+        grid-template-rows: repeat(4, 200px);
+    }
+}
+
+@media screen and (max-width: 768px) {
+    main {
+        margin: 0 10px;
+    }
+    .container {
+        display: inline;
+    }
+
+    .container-title {
+        width: 100%;
+        text-align: center;
+        border-right: none;
+        border-bottom: solid black 4px;
+        margin: 20px 0;
+        padding: 0;
+    }
+
+    .contact {
+        margin-bottom: 20px;
+    }
+}
