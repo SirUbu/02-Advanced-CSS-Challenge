@@ -14,17 +14,6 @@
     --font-secondary: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-main {
-    background-image: url(../images/background2.png);
-}
-
-.section-title {
-    font-size: 48px;
-    font-weight: bold;
-    font-family: var(--font-primary);
-    border-right: solid black 4px;
-}
-
 /* header styling */
 header {
     padding: 35px 35px 20px 0px;
@@ -75,7 +64,7 @@ header nav ul li a {
 }
 
 header nav ul li a:hover {
-    color: var(--primary-color);
+    color: var(--quaternary-color);
     background: var(--quinary-color);
     border-radius: 15px;
 }
@@ -94,32 +83,57 @@ header nav ul li a:hover {
 .hero h2 {
     font-family: var(--font-primary);
     background: var(--quinary-color);
-    color: var(--primary-color);
+    color: var(--quaternary-color);
     font-size: 30px;
     padding: 5px 50px;
     margin-bottom: 20px;
     border-radius: 20px 0 0 20px;
 }
 
-/* about me styling */
+/* main section styling */
+main {
+    background-image: url(../images/background2.png);
+}
+
 .container {
-    width: 75%;
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
     display: flex;
-    justify-content: space-around;
-    align-items: center;
+}
+
+.container-title {
+    font-size: 48px;
+    font-weight: bold;
+    font-family: var(--font-primary);
+    border-right: solid black 4px;
+    text-align: right;
+    padding-right: 20px;
+    margin-right: 10px;
 }
 
 .container-content {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-around;
-    align-items: center;
 }
 
-.container-content img {
+.about-picture {
+    background-image: url(../images/Self\ Picture.jpg);
+    background-size: cover;
     height: 300px;
-    width: 225px;
+    width: 230px;
+}
+
+.about-picture:hover {
+    background-image: url(../images/SirUbuImage.png) ;
+    background-size: contain;
+    height: 230px;
 }
 
 .container-content p {
-    width: 60%;
+    width: 70%;
+    font-size: 18px;
+    line-height: 1.5;
+    font-family: var(--font-secondary);
 }
