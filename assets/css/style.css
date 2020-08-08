@@ -6,10 +6,9 @@
 
 :root {
     --primary-color: #1b19c2;
-    --secondary-color: #71a9fd;
+    --secondary-color: silver;
     --tertiary-color: #797878;
-    --quaternary-color: #ffffff;
-    --quinary-color: #02d6f1;
+    --quaternary-color: #02d6f1;
     --font-primary: Georgia, 'Times New Roman', Times, serif;
     --font-secondary: Verdana, Geneva, Tahoma, sans-serif;
 }
@@ -26,8 +25,8 @@ header {
 }
 
 header h1 {
-    color: var(--primary-color);
-    background: var(--quinary-color);
+    color: var(--secondary-color);
+    background: var(--primary-color);
     font-size: 40px;
     padding: 5px 50px;
     font-family: var(--font-primary);
@@ -36,7 +35,7 @@ header h1 {
 
 header a {
     text-decoration: none;
-    color: var(--quinary-color);
+    color: var(--primary-color);
 }
 
 header nav {
@@ -54,7 +53,7 @@ header nav ul {
 
 header nav ul li {
     margin: 0 5px;
-    border-bottom: 2px solid var(--quinary-color);
+    border-bottom: 2px solid var(--primary-color);
     border-radius: 15px;
 }
 
@@ -64,8 +63,8 @@ header nav ul li a {
 }
 
 header nav ul li a:hover {
-    color: var(--quaternary-color);
-    background: var(--quinary-color);
+    color: var(--secondary-color);
+    background: var(--primary-color);
     border-radius: 15px;
 }
 
@@ -76,14 +75,14 @@ header nav ul li a:hover {
     display: flex;
     justify-content: flex-end;
     align-items: flex-end;
-    border-top: 3px solid var(--quinary-color);
-    border-bottom: 4px solid var(--quinary-color);
+    border-top: 3px solid var(--quaternary-color);
+    border-bottom: 4px solid var(--quaternary-color);
 }
 
 .hero h2 {
     font-family: var(--font-primary);
-    background: var(--quinary-color);
-    color: var(--quaternary-color);
+    background: var(--primary-color);
+    color: var(--secondary-color);
     font-size: 30px;
     padding: 5px 50px;
     margin-bottom: 20px;
@@ -157,32 +156,51 @@ main {
     grid-gap: 10px;
 }
 
+.border {
+    border: 8px solid var(--quaternary-color);
+    border-radius: 5px;
+}
+
+.grid-content article div {
+    width: 50%;
+    margin-top: 30%;
+    padding: 2px 0;
+    background: var(--quaternary-color);
+    text-align: center;
+    color: var(--primary-color);
+}
+
 .project-1 {
-    background: orange;
+    background-image: url(../images/run-buddy.PNG);
+    background-size: cover;
     grid-column: 2;
     grid-row: 3;
 }
 
 .project-2 {
-    background: purple;
+    background-image: url(../images/calculator.jfif);
+    background-size: cover;
     grid-column: 3;
     grid-row: 2;
 }
 
 .project-3 {
-    background: green;
+    background-image: url(../images/led-wall.jfif);
+    background-size: cover;
     grid-column: 3;
     grid-row: 1;
 }
 
 .project-4 {
-    background: red;
+    background-image: url(../images/pastel-puzzles.jfif);
+    background-size: cover;
     grid-column: 1;
     grid-row: 3;
 }
 
 .project-5 {
-    background: blue;
+    background-image: url(../images/surf.jfif);
+    background-size: cover;
     grid-column: 1 / span 2;
     grid-row: 1 / span 2;
 }
@@ -197,7 +215,7 @@ main {
 /* footer styling */
 footer {
     height: 60px;
-    border-top: 4px solid var(--quinary-color);
+    border-top: 4px solid var(--quaternary-color);
     background: var(--tertiary-color);
     text-align: center;
 }
