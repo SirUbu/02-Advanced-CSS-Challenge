@@ -45,19 +45,19 @@ https://sirubu.github.io/02-Advanced-CSS-Challenge/
 ## Checklist for Completion
 
 ### Technical Acceptance Criteria: 40%
-- [ ] Satisfies all of the above acceptance criteria.
+- [x] Satisfies all of the above acceptance criteria.
 ### Deployment 32%
 - [x] Application deployed at live URL.
-- [ ] Application loads with no errors.
+- [x] Application loads with no errors.
 - [ ] Application GitHub URL submitted.
-- [ ] GitHub repository contains application code.
+- [x] GitHub repository contains application code.
 ### Application Quality: 15%
 - [ ] Application resembles the mock-up functionality provided in the Challenge instruction.
 ### Repository Quality: 13%
 - [x] Repository has a unique name.
-- [ ] Repository follows best practices for file structure and naming conventions.
-- [ ] Repository follows best practices for class/id naming conventions, indentation, quality comments, etc.
-- [ ] Repository contains multiple descriptive commit messages.
+- [x] Repository follows best practices for file structure and naming conventions.
+- [x] Repository follows best practices for class/id naming conventions, indentation, quality comments, etc.
+- [x] Repository contains multiple descriptive commit messages.
 - [x] Repository contains quality readme with description, screenshot, link to deployed application.
 ### Submit the Challenge
 - [ ] The URL of the deployed application.
