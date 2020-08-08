@@ -98,12 +98,12 @@ main {
 .container {
     width: 80%;
     margin: 0 auto;
-    padding: 20px;
+    padding: 40px 0;
     display: flex;
 }
 
 .container-title {
-    width: 20%;
+    width: 25%;
     font-size: 48px;
     font-weight: bold;
     font-family: var(--font-primary);
@@ -185,4 +185,24 @@ main {
     background: blue;
     grid-column: 1 / span 2;
     grid-row: 1 / span 2;
+}
+
+/* contact me styling */
+.contact {
+    align-content: center;
+    font-family: var(--font-secondary);
+    font-weight: 18px;
+}
+
+/* footer styling */
+footer {
+    height: 60px;
+    border-top: 4px solid var(--quinary-color);
+    background: var(--tertiary-color);
+    text-align: center;
+}
+
+footer div {
+    font-size: 16px;
+    padding-top: 30px;
 }
