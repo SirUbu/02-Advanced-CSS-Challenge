@@ -49,7 +49,7 @@ https://sirubu.github.io/02-Advanced-CSS-Challenge/
 ### Deployment 32%
 - [x] Application deployed at live URL.
 - [x] Application loads with no errors.
-- [ ] Application GitHub URL submitted.
+- [x] Application GitHub URL submitted.
 - [x] GitHub repository contains application code.
 ### Application Quality: 15%
 - [x] Application resembles the mock-up functionality provided in the Challenge instruction.
