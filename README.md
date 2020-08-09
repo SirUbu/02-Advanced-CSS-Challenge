@@ -52,7 +52,7 @@ https://sirubu.github.io/02-Advanced-CSS-Challenge/
 - [ ] Application GitHub URL submitted.
 - [x] GitHub repository contains application code.
 ### Application Quality: 15%
-- [ ] Application resembles the mock-up functionality provided in the Challenge instruction.
+- [x] Application resembles the mock-up functionality provided in the Challenge instruction.
 ### Repository Quality: 13%
 - [x] Repository has a unique name.
 - [x] Repository follows best practices for file structure and naming conventions.
@@ -60,5 +60,5 @@ https://sirubu.github.io/02-Advanced-CSS-Challenge/
 - [x] Repository contains multiple descriptive commit messages.
 - [x] Repository contains quality readme with description, screenshot, link to deployed application.
 ### Submit the Challenge
-- [ ] The URL of the deployed application.
-- [ ] The URL of the GitHub repository that contains your code.
+- [x] The URL of the deployed application.
+- [x] The URL of the GitHub repository that contains your code.
